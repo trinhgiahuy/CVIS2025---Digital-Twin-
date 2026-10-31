@@ -3,7 +3,7 @@
 **Status: RECONSTRUCTED 2026-10-30, NOT THE ORIGINAL 2025 CODE OR MODEL WEIGHTS.**
 
 This package reconstructs the journal method and incorporates recovered historical
-configuration details from earlier ChatGPT exchanges. It has not been verified
+configuration details from earlier fragmented directory. It has not been verified
 against the original dataset or recovered checkpoint. Do not claim regenerated
 figures or performance are identical to those in the publication before reproducing
 them and documenting any differences. No private data, pretrained weights, or

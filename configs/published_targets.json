@@ -1,0 +1,22 @@
+{
+  "provenance": "published paper confusion matrices and recovered November 2025 execution logs; these are evaluation targets, NOT generated predictions",
+  "binary_occupancy": {
+    "seed_from_prior_execution": 40,
+    "labels": ["empty", "one person"],
+    "test_support": [427,184],
+    "cdr_confusion_rows_true_cols_pred": [[417,10],[8,176]],
+    "cdr_accuracy_from_confusion": 0.9705400981996727,
+    "cdr_balanced_accuracy_from_confusion": 0.9665512676916811
+  },
+  "three_class_counting": {
+    "seed_from_prior_execution": 42,
+    "labels": ["empty", "one person", "two people"],
+    "test_support": [427,184,153],
+    "cdr_confusion_rows_true_cols_pred": [[423,4,0],[3,88,93],[2,45,106]],
+    "cdr_accuracy": 0.8075916230366492,
+    "cdr_balanced_accuracy": 0.7205678818609093,
+    "cdr_macro_f1": 0.7133443386148747,
+    "naive_approx": {"accuracy":0.2408,"balanced_accuracy":0.3333,"macro_f1":0.1294},
+    "random_dr_approx": {"accuracy":0.7304,"balanced_accuracy":0.6058,"macro_f1":0.5942}
+  }
+}

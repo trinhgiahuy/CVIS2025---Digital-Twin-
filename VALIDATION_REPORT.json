@@ -1,0 +1,19 @@
+{
+  "type": "Independent reconstruction of CVIS CDR (not original 2025 source)",
+  "date": "2026-10-30",
+  "unit_and_end_to_end_tests": "6 passed",
+  "verified_steps": [
+    "2D FFT window variants for 2D/3D input",
+    "CDR Gaussian max in dB",
+    "calibration mean and population std",
+    "Viridis 3ch reshape",
+    "H5 subdataset references",
+    "CPU toy ResNet18 train/eval",
+    "three-class all-method comparison",
+    "feature map plot",
+    "figures 4-6 style diagnostics"
+  ],
+  "tests_do_not_verify_original_paper_accuracy": true,
+  "original_model_checkpoint_included": false,
+  "original_data_included": false
+}

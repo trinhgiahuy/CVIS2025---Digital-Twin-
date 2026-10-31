@@ -1,0 +1,19 @@
+{
+  "status": "independent_reconstruction_not_original_source",
+  "sensor": "Infineon BGT60TR13C",
+  "f_center_hz": 60000000000.0,
+  "bandwidth_hz": 882350000.0,
+  "sample_rate_hz": 1000000.0,
+  "chirp_duration_s": 0.000256,
+  "samples_per_chirp": 256,
+  "input_size": 224,
+  "sim_native_rd_shape_from_prior_chat": [128,128],
+  "real_native_rd_shape_from_prior_chat": [128,256],
+  "normalization": "paper: simulation-derived fixed vmin/vmax; original actual numbers NOT verified",
+  "historical_preprocessing_candidate_only": {"min_db": -200.0, "max_db_approx": -50.22},
+  "random_dr": {"m_uniform_db": [-130.0,-100.0], "sigma_uniform_db":[1.0,4.0]},
+  "cdr": "global mean/std of 100 unlabeled real-empty calibration RD dB frames; per-cell independent Gaussian and max",
+  "test": "real labeled held out; no DR and no CDR",
+  "model": "ResNet18 from random initialization; 2/3 class head",
+  "unrecovered": ["original actual FFT window and axis conventions","simulation generator","test manifest/session IDs","original optimizer and training schedule","original normalization precision","checkpoint weights","actual original source code"]
+}

@@ -1,0 +1,11 @@
+path,domain,label,split,kind,session_id,participant_id
+/path/to/sim_empty_001.csv,sim,0,train,rd_db,sim_scene_01,
+/path/to/sim_one_001.csv,sim,1,train,rd_db,sim_scene_02,
+/path/to/sim_two_001.csv,sim,2,train,rd_db,sim_scene_03,
+/path/to/sim_empty_val.csv,sim,0,val,rd_db,sim_scene_04,
+/path/to/sim_one_val.csv,sim,1,val,rd_db,sim_scene_05,
+/path/to/sim_two_val.csv,sim,2,val,rd_db,sim_scene_06,
+/path/to/real_empty_calibration_001.npy,real,-1,calibration,rd_db,calibration_session,
+/path/to/real_empty_test.npy,real,0,test,rd_db,real_session_01,
+/path/to/real_one_test.npy,real,1,test,rd_db,real_session_02,subject1
+/path/to/real_two_test.npy,real,2,test,rd_db,real_session_03,subjects1_2
